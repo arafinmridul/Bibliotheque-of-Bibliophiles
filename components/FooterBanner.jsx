@@ -22,8 +22,8 @@ const FooterBanner = ({
       <div className="banner-desc">
         <div className="left">
           <p>{discount}</p>
-          <h3>{largeText1}</h3>
-          <h3>{largeText2}</h3>
+          <h3 id="sale">{largeText1}</h3>
+          <h3 id="flat">{largeText2}</h3>
           <p>{saleTime}</p>
         </div>
         <div className="right">
