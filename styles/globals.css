@@ -113,6 +113,8 @@ span.text-red {
   transform: scale(1.1, 1.1);
 }
 .product-image {
+  height: 250px;
+  width: 190px;
   border-radius: 15px;
   background-color: #ebebeb;
   transform: scale(1, 1);
@@ -416,7 +418,7 @@ span.text-red {
   border-radius: 15px;
   background-color: #ebebeb;
 
-  width: 400px;
+  width: 300px;
   height: 400px;
   cursor: pointer;
   transition: 0.3s ease-in-out;
@@ -432,7 +434,7 @@ span.text-red {
 .small-image {
   border-radius: 8px;
   background-color: #ebebeb;
-  width: 70px;
+  width: 61px;
   height: 70px;
   cursor: pointer;
 }
@@ -669,7 +671,7 @@ span.text-red {
     flex-wrap: wrap;
   }
   .product-detail-container .product-detail-image {
-    width: 350px;
+    width: 270px;
     height: 350px;
   }
   .cart-container {
